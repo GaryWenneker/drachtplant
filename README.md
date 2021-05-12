@@ -4,7 +4,7 @@ This is a basic working dev environment for working on a React/Typescript applic
 
 ## Logging:
 I like seeing typescript errors in my console, as well as using VS Code, or any other modern text editor, so we run tsc concurrently with vite and it's HMR. The output then looks something like this:
-```zsh
+```
 [⚡️vite]   ready in 238ms.
 [👹tsc] 4:42:46 PM - Found 0 errors. Watching for file changes.
 ```

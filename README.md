@@ -4,8 +4,22 @@ This is a basic working dev environment for working on a React/Typescript applic
 
 ## Installation:
 ⚠️ This assumes you have the [netlify-cli](https://docs.netlify.com/cli/get-started/) installed.
+<br>First [fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) this repo and then clone your fork, then:
 ```
-git clone 
+npm install
+```
+```
+netlify init
+```
+```
+npm start
+```
+
+## Netlify Endpoint:
+You're netlify endpoint is now: localhost:3000/api/{function} <br>
+You can tell you are on the proper localhost port, because when you start the server vite tells you:
+```
+[⚡️vite]   > Local: http://localhost:3000/
 ```
 
 ## Logging:
@@ -21,8 +35,8 @@ You can change this inside package.json, the "dev" script.
 "concurrently -n \"⚡️vite,👹tsc\" -c \"cyan,red\" \"vite\" \"tsc -w\""
 ```
 -n specifies to names for each command output
--c specifies the color for each command output
-If you don't want to see any tsc errors in the command line, just remove "-w". This means that you will see typescript errors on the inital vite build, but not after that.
+<br>-c specifies the color for each command output
+<br>If you don't want to see any tsc errors in the command line, just remove "-w". This means that you will see typescript errors on the inital vite build, but not after that.
 
 ## Build:
 Currently it is set to error before build if typescript errors don't pass. This means that Netlify won't deploy either, if there are typescript errors. Based on the tsconfig.json, we are also checking the functions folder when we run tsc.

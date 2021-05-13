@@ -7,7 +7,7 @@
     "build": "tsc && vite build",
     "serve": "vite preview",
     "start": "netlify dev",
-    "dev": "concurrently -n \"⚡️vite,👹tsc\" -c \"cyan,red\" \"vite --clearScreen false\" \"tsc -w --preserveWatchOutput\""
+    "dev": "concurrently -n \"⚡️vite,👹tsc\" -c \"cyan,red\" \"vite\" \"tsc -w\""
   },
   "dependencies": {
     "concurrently": "^6.0.2",

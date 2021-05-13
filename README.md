@@ -19,6 +19,15 @@ Configure as you see fit, but the netlify.toml file does specify a build command
 ```
 npm start
 ```
+If you fork the repo, then want to use it again, you might try the following: <br>
+1. Create your new repo on GitHub
+2. `git clone yournewrepo`
+3. `git clone --bare your-fork-of-this-starter`
+4. `cd your-fork-of-this-starter`
+5. `git push --mirror yournewrepo`
+6. `rm -rf your-fork-of-this-starter.git`
+7. `rm -rf yournewrepo`
+8. `git clone yournewrepo`
 
 ## Netlify Endpoint:
 You're netlify endpoint is now: localhost:3000/api/{function} <br>

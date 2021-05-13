@@ -1,10 +1,19 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
   mode: 'jit',
   purge: [
     './src/**/*.{ts,tsx}',
   ],
-  darkMode: false, // or 'media' or 'class'
-  theme:  {},
+  darkMode: 'class', // or 'media' or 'class'
+  theme: {
+    extend: {
+      colors,
+      animation: {
+        spinslow: 'spin 20s linear infinite'
+      }
+    },
+  },
   variants: {
     extend: {},
   },

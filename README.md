@@ -15,6 +15,7 @@ npm install
 ```
 netlify init
 ```
+Configure as you see fit, but the netlify.toml file does specify a build command and you'll need to change that to override it.
 ```
 npm start
 ```
@@ -62,4 +63,4 @@ Or if you want it in production
 ```
 netlify deploy --prod
 ```
-The starter kit's deployed site is [here](https://starter-kit-ng.netlify.app).
+The starter kit's deployed site is [here](https://r-ts-v-tw-starter.netlify.app).

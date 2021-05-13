@@ -47,3 +47,15 @@ You can change this inside package.json, the "build" script.
 "tsc && vite build"
 ```
 Just remove tsc, but remember that it can be nice to be notified of potential errors before you build.
+
+## Deployment:
+Netlify is awesome, so you can actually just deploy your app by pushing to whatever branch you have Netlify watching.
+<br>You can deploy a draft with:
+```
+netlify deploy
+```
+Or if you want it in production
+```
+netlify deploy --prod
+```
+The starter kit's deployed site is [here](https://starter-kit-ng.netlify.app).

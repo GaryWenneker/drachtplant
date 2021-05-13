@@ -2,6 +2,10 @@
 ## What is it:
 This is a basic working dev environment for working on a React/Typescript application, including TailwindCSS, and using _next generation tooling_ from Vite. In addition running lambda's from Netlify/Typescript in the same environment.
 
+✅ Tested with `netlify-cli/3.29.7 darwin-x64 node-v15.13.0`
+✅ Tested with `netlify-cli/3.29.7 darwin-x64 node-v16.1.0`
+✅ Tested with `netlify-cli/3.29.7 darwin-x64 node-v12.0.0`
+
 ## Installation:
 ⚠️ This assumes you have the [netlify-cli](https://docs.netlify.com/cli/get-started/) installed.
 <br>First [fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) this repo and then clone your fork, then:

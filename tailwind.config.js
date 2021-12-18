@@ -1,8 +1,7 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-  mode: 'jit',
-  purge: [
+  content: [
     './src/**/*.{ts,tsx}',
   ],
   darkMode: 'class', // or 'media' or 'class'
@@ -13,9 +12,6 @@ module.exports = {
         spinslow: 'spin 20s linear infinite'
       }
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 };

@@ -16,7 +16,7 @@ const handler: Handler = async (event) => {
       // headers: { "headerName": "headerValue", ... },
       // isBase64Encoded: true,
     }
-  } catch (error) {
+  } catch (error: any) {
     return { statusCode: 500, body: JSON.stringify({message: error.toString()}) }
   }
 }

@@ -4,7 +4,8 @@ This is a basic working dev environment for working on a React/Typescript applic
 
 ✅ Tested with `netlify-cli/3.29.7 darwin-x64 node-v15.13.0`<br>
 ✅ Tested with `netlify-cli/3.29.7 darwin-x64 node-v16.1.0`<br>
-✅ Tested with `netlify-cli/3.29.7 darwin-x64 node-v12.0.0`
+✅ Tested with `netlify-cli/3.29.7 darwin-x64 node-v12.0.0`<br>
+✅ Tested with `netlify-cli/4.1.2 win32-x64 node-v16.13.1`<br>
 
 ## Installation:
 ⚠️ This assumes you have the [netlify-cli](https://docs.netlify.com/cli/get-started/) installed.
@@ -20,6 +21,10 @@ Configure as you see fit, but the netlify.toml file does specify a build command
 npm start
 ```
 If you fork the repo, then want to use it again, you might try the following: <br>
+1. Click the __Use This Template__ on the repo to make a new one. <br>
+
+**OR** <br>
+
 1. Create your new repo on GitHub
 2. `git clone yournewrepo`
 3. `git clone --bare your-fork-of-this-starter`
